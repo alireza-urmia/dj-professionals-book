@@ -139,4 +139,4 @@ LOGIN_REDIRECT_URL = "home"
 LOGOUT_REDIRECT_URL = "home"
 
 # Allauth settings
-ACCOUNT_LOGIN_TEMPLATE = 'accounts/login.html'
+ACCOUNT_FORMS = {'login': 'mysite.forms.MyCustomLoginForm'}

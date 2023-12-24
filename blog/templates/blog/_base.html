@@ -7,7 +7,7 @@
 </head>
 <body>
     <div>
-        include 'blog/inc/navbar.html'
+        {% block navbar %}include 'blog/inc/navbar.html'{% endblock %}
     </div>
     {% block content %}{% endblock %}
 </body>
